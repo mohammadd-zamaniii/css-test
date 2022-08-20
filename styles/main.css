@@ -1,0 +1,272 @@
+
+/* start footer */
+/* .main-footer{
+    background: #424242;
+    padding: 32px;
+}
+
+.mf-links{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+.mf-link{
+    display: inline-block;
+    margin: 0px 16px;
+}
+.mf-link a{
+    color: aqua;
+    text-decoration: none;
+
+}
+.mf-link a:hover,
+.mf-link a:active{
+    color: rgb(7, 102, 70);
+ */
+
+/* end footer */
+ 
+/* start main  */
+.pl-l{
+
+    width: 65%;
+    margin-left: 23.6rem;
+}
+.p-l{
+    background-color: #f5f5f5;
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem;
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    text-align: center;
+    color: #424242;
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.7);
+    direction: rtl;
+    border-radius: 0.2rem;
+}
+
+.p-ls{
+    background: #e3f2fe;
+    color: blue;
+    box-shadow: 0 0 25px 5px aqua;
+}
+.pl-t-ls{
+    background: #ffffff;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+.pl-fe{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+.pl-f{
+    margin: 0.5rem 0;
+
+}
+.plan-btn{
+    background-color: blue;
+    color: #e3f2fe;
+    font: inherit;
+    border: none;
+    padding:  0.1rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    outline: none;
+
+}
+
+@media (min-width: 85rem) {
+    .p-l {
+        display: inline-block;
+        vertical-align: middle;
+        width: 20%;
+        min-width: 12rem;
+        margin: 3rem;
+    }
+}
+
+
+#overview {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 30vh;
+    /* background: url(../images/bk\ image.webp) center/cover no-repeat fixed; */
+    /* background: linear-gradient(to left bottom red, aqua); */
+    /* background: radial-gradient( red,aqua); */
+    background: 
+    linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+    url(../images/bk\ image.webp.png) center no-repeat,
+    #90cff9
+    ;
+}
+
+@media (min-width: 40rem) {
+    #overview {
+        height: 70vh;
+    }
+}
+
+
+
+
+
+.s-t{
+    color: aqua;
+    text-align: center;
+}
+
+#f-e{
+    background-color: #f5f5f5;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+#f-e .s-t{
+    margin: 2rem;
+
+}
+.fe-l{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.fe-le{
+    /* display: inline-block; */
+     /* width: 30%;  */
+     padding: 1rem;
+}
+.fe-d{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(118, 171, 171);
+    font-size: 1.1rem;
+}
+.fe-image{
+    background: #bbdefb;
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid aqua;
+    border-radius: 50%;
+    margin: auto;
+}
+
+@media (min-width: 40rem) {
+    .fe-le {
+        display: inline-block;
+        width: 30%;
+    }
+}
+
+.modal{
+    position: fixed;
+    opacity: 0;
+    transform: translateY(-3rem);
+    transition: opacity 0.3s, transform 0.5s; 
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: #ffffff;
+    padding: 0.1rem;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.modal-tt{
+    text-align: center;
+    margin: 0 0 1px 0;
+}
+
+.modal-acs{
+    text-align: center;
+}
+
+.modal-ac{
+    border: 1px solid aqua;
+    background: #1565c0;
+    text-decoration: none;
+    color: #ffffff;
+    font: inherit;
+    padding: 0.5px 1px;
+    border-radius: 0.2rem;
+}
+.modal-acn{
+    background: #d81b60;
+    
+}
+/* end main */
+/* start header */
+/* 
+.main-h {
+    width: 100%;
+    background-color: aqua;
+    padding: 8px 15px;
+}
+.main-h > div {
+display: inline-block;
+vertical-align: middle;
+}
+
+.main-nav{
+    display: inline-block;
+    width: calc(100% - 70px);
+    text-align: right;
+    vertical-align: middle ;
+}
+.mn-1{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+.a-1{
+    color: rgb(255, 5, 5);
+    text-decoration: none;
+    font-size: 20px;
+}
+.main-nav a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.mn-2{
+    display: inline-block;
+    margin: 0px 16px;
+}
+.mn-2 a:hover,
+ .mn-2 a:active{
+    color: white;
+}
+.mn-22 a{
+background: greenyellow;
+padding: 8px 16px;
+border-radius: 8px;
+}
+.mn-22 a:hover,
+.mn-22 a:active {
+    color: black;
+}
+@font-face{
+    font-family: 'vazirmatn';
+    src: url('../fonts/Vazirmatn-Regular.ttf');
+}
+body {
+    font-family: 'vazirmatn';
+    margin: 0px;
+
+}
+*{
+    box-sizing: border-box;
+} */
+/* end header */
+
+
+
+

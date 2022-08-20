@@ -1,0 +1,69 @@
+
+
+main{
+    padding-top: 50px;
+}
+.te-ti{
+    font-size: 1.2rem;
+    /* margin: 0.2rem 0; */
+}
+.te-ti:first-of-type {
+    margin-top: 6px;
+}
+.customer-img {
+    width: 100%;
+    /* max-width: 400px; */
+    min-width: 18.75rem;
+    /* display: inline-block; */
+    vertical-align: middle;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 4rem;
+}
+
+.testi-in{
+    text-align: right;
+    padding: 0.9rem;
+    /* display: inline-block;
+    vertical-align: middle;
+    width: 20%; */
+}
+#cus-2.te-ti {
+    text-align: right;
+}
+.testi-nam{
+    margin: 0.2rem;
+    color: aqua;
+    font-size: 1.2rem;
+}
+.testi-sub{
+    margin: 0rem;
+    font-size: 1.1rem;
+    color: #757575;
+}
+.testi-text{
+    margin: 0.2rem;
+    color: #212121;
+}
+
+@media (min-width:40rem) {
+    .te-ti{
+        margin: 0.2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .testi-img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 50%;
+    }
+
+    .testi-in {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    }
+}
+
+

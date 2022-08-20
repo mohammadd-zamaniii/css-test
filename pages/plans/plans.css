@@ -1,0 +1,67 @@
+main{
+    padding-top: 2rem;
+    height: 94vh;
+}
+.back-g{
+    width: 100vw;
+    height: 56.25rem;
+    position: fixed;
+    z-index: -1;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+.plan{
+    width: 60%;
+    margin: 1rem 0;
+    border: 0.1rem solid aqua;
+    border-left: none;
+    text-align: right;
+    border-radius: 0.2rem;
+    z-index: 0;
+    position: relative;
+}
+.plan a{
+    text-decoration: none;
+    color: #424242;
+    display: block;
+    padding: 2rem;
+
+}
+.plan-i{
+    padding: 1rem;
+    border: 0.1rem solid aqua;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.7); 
+}
+.pl-b{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    margin: 0;
+    font-size: 0.9rem;
+    border: 3px solid #424242;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.7); 
+    background-color: aqua;
+    color: #424242;
+    transform: rotateZ(45deg);
+    transform-origin: 2rem 3rem;
+}
+.clearfix{
+    clear: both;
+}
+#plus{
+    background: #bbdefb;
+}
+#free{
+    background: #e3f2fd;
+    float: right;
+    border-right: none;
+    border-left: 2px solid aqua;
+}
+#ppxium{
+    background: #4180df;
+}
